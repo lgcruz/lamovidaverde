@@ -6,12 +6,12 @@
     align-items: center;
     justify-content: center;
     position: sticky;
-    border-top-color: #407e44;
+    /* border-top-color: #407e44;
     border-top-width: 10px;
     border-top-style: solid;
     border-bottom-color: #407e44;
     border-bottom-width: 10px;
-    border-bottom-style: solid;
+    border-bottom-style: solid; */
 }
 
 .logoHeader {

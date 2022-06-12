@@ -58,7 +58,7 @@ function Layout(props: LayoutProps): ReactElement {
             <div style={{ display: 'flex', width: '100%', height: '100%' }} >
                 {props.children}
             </div>
-            <div style={{ width: '100%', background: '#352109', color: 'white', position: 'absolute', bottom: 0 }}>{'this is a footer'}</div>
+            <div style={{ width: '100%', background: '#352109', color: 'white' }}>{'this is a footer'}</div>
         </Fragment>
     );
 }
