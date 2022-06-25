@@ -1,5 +1,5 @@
 import { Fragment, ReactElement, useEffect } from "react";
-
+import style from './Carousel.module.css';
 
 
 function Carousel(props: {
@@ -26,10 +26,13 @@ function Carousel(props: {
             }}>
                 {!side && (
                     <div style={{ width: '50%', display: 'flex', justifyContent: 'center' }} >
-                        <img
-                            style={{ height: '600px' }} 
-                            src={props.src} 
-                        />
+                        <a href={props.src}>
+                            <img
+                                // style={{ height: '600px' }} 
+                                className={style.carouselImages}
+                                src={props.src} 
+                            />
+                        </a>
                     </div>
                 )}
                 
@@ -51,7 +54,7 @@ function Carousel(props: {
                 {side && (
                     <div style={{ width: '50%', display: 'flex', justifyContent: 'center' }} >
                         <img
-                            style={{ height: '600px' }} 
+                            className={style.carouselImages}
                             src={props.src} 
                         />
                     </div>

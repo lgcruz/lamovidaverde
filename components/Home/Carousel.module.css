@@ -1,0 +1,12 @@
+.carouselImages {
+    max-width: 100%;
+    object-fit:contain;
+}
+
+@media screen and (min-width: 1000px) {
+    .carouselImages {
+        height: 400px;
+        width: 400px;
+        /* // object-fit: none; */
+    }
+}

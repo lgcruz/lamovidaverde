@@ -22,8 +22,8 @@ function LandingPage(props: LandingPageProps): ReactElement {
     
     return (
         <div style={{ 
-            width: '100%', 
-            height: '100%', 
+            width: '80%', 
+            height: '20%', 
             display: 'flex', 
             alignItems: 'center', 
             justifyContent: 'center'

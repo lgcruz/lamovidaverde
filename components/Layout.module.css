@@ -24,6 +24,16 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+    .logoHeader {
+        display: none;
+    }
+    .headerStyle {
+        height: 171px;
+    }
+    
+}
+
 .buttonHeader {
     padding: 10px 20px;
     margin-left: 10px;
