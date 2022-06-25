@@ -16,16 +16,9 @@ function Carousel(props: {
     
     return (
         <Fragment>
-            <div style={{ 
-                background: 'white', 
-                borderRadius: '30px', 
-                width: '100%', 
-                display: 'flex', 
-                overflow: 'hidden',
-                margin: '60px'
-            }}>
+            <div className={style.carouselContainer}>
                 {!side && (
-                    <div style={{ width: '50%', display: 'flex', justifyContent: 'center' }} >
+                    <div className={style.carouselImageContainer} >
                         <a href={props.src}>
                             <img
                                 // style={{ height: '600px' }} 
@@ -36,14 +29,7 @@ function Carousel(props: {
                     </div>
                 )}
                 
-                <div style={{ 
-                    width: 'calc(50% - 120px)', 
-                    padding: '60px', 
-                    display: 'flex', 
-                    // alignItems: 'center', 
-                    flexDirection: 'column',
-                    textAlign: 'left'
-                }}>
+                <div className={style.carouselTextContainer}>
                     <h1>
                         {props.title}
                     </h1>
@@ -52,11 +38,13 @@ function Carousel(props: {
                     </p>
                 </div>
                 {side && (
-                    <div style={{ width: '50%', display: 'flex', justifyContent: 'center' }} >
-                        <img
-                            className={style.carouselImages}
-                            src={props.src} 
-                        />
+                    <div className={style.carouselImageContainer} >
+                        <a href={props.src}>
+                            <img
+                                className={style.carouselImages}
+                                src={props.src} 
+                            />
+                        </a>
                     </div>
                 )}
                 

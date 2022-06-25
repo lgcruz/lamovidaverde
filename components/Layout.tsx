@@ -30,7 +30,7 @@ function Layout(props: LayoutProps): ReactElement {
                     <img src='/la_movida_verde_logo.jpg' style={{ height: '120px' }} />
                 </button>
                 
-                <div style={{ display: 'flex', flexDirection: 'row', height: '70px', marginLeft: '40px' }}>
+                <div className={style.optionContainer}>
                     <button 
                         className={`${
                             router.pathname === '/' && style.selected

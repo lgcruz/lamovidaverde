@@ -24,12 +24,22 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+.optionsContainer {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 700px) {
     .logoHeader {
         display: none;
     }
     .headerStyle {
         height: 171px;
+    }
+    .optionsContainer {
+        margin-left: 0;
     }
     
 }
