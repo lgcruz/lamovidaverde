@@ -22,7 +22,7 @@ function LandingPage(props: LandingPageProps): ReactElement {
     
     return (
         <div style={{ 
-            width: '80%', 
+            width: 'inherit', 
             display: 'flex', 
             alignItems: 'center', 
             justifyContent: 'center'

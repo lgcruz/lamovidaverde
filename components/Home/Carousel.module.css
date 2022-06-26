@@ -6,7 +6,7 @@
 .carouselContainer {
     background: white;
     border-radius: 30px; 
-    width: 100%;
+    width: calc(100% - 120px);
     display: flex; 
     overflow: hidden;
     margin: 60px;
