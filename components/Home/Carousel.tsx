@@ -7,16 +7,17 @@ function Carousel(props: {
     description: string;
     src: string; 
     side: boolean;
+    id: number;
 } ): ReactElement {
     // const router = useRouter();
-    const { side } = props;
+    const { side, id } = props;
     useEffect(() => {
         console.log(props);
     }, [])
     
     return (
         <Fragment>
-            <div className={style.carouselContainer}>
+            <div className={style.carouselContainer} key={`${id}-carousel`}>
                 {!side && (
                     <div className={style.carouselImageContainer} >
                         <a href={props.src}>

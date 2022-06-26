@@ -13,8 +13,6 @@ function Layout(props: LayoutProps): ReactElement {
     const [scrolled, setScrolled] = useState(false);
 
     function scrollFunction() {
-        console.log(document.documentElement.scrollHeight, document.documentElement.scrollTop, document.documentElement.clientHeight + 10);
-        // console.log(document.documentElement.scrollHeight, document.documentElement.scrollTop);
         if (document.documentElement.scrollTop > 111) {
             document.getElementById('header-movida-verde').style.height = "71px";
             setScrolled(true);
@@ -74,10 +72,10 @@ function Layout(props: LayoutProps): ReactElement {
                     </button>
                 </div>
             </div>
-            <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center' }} >
+            {/* <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center' }} > */}
                 {props.children}
-            </div>
-            <div style={{ width: '100%', background: '#352109', color: 'white', position: 'sticky', bottom: 0 }}>{'this is a footer'}</div>
+            {/* </div> */}
+            {/* <div style={{ width: '100%', background: '#352109', color: 'white', position: 'sticky', bottom: 0 }}>{'this is a footer'}</div> */}
         </Fragment>
     );
 }

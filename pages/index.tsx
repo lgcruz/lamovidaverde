@@ -16,7 +16,14 @@ const Data = {
       description: '📰Sabías que 1kg de residuos orgánicos se transforman en 30 gr de compost♻️?\n\n'+ 
         '🌱No se olviden que tenemos composteras para que hagas tu abono en casa ✨♻️',
       src: 'https://i.ibb.co/XXKVSrf/vermicompostera.jpg'
-   }
+    },
+    {
+      title: 'Cascara de Huevo',
+      description: 'La cáscara de un huevo de gallina está formada por un 96% de carbonato de calcio:\n'+
+        ' una de las mejores fuentes de este ecológicas de este nutriente para las plantas en macetas,\n'+
+        ' jardines o huertas. Aunque no forman parte de nuestra dieta, las plantas extraen todos sus beneficios. A su vez, se les puede dar muchos otros usos.',
+      src: 'https://i.ibb.co/934dzG2/cascara-Huevo.jpg'
+    }
   ]
 }
 
