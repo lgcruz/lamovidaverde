@@ -17,19 +17,19 @@ function LandingPage(props: LandingPageProps): ReactElement {
     const refCarousel = useRef();
     // const router = useRouter();
     
-    useEffect(() => {
-        setInterval(() => {
-            if ((refCarousel.current as HTMLElement).scrollLeft + (refCarousel.current as HTMLElement).clientWidth 
-                === (refCarousel.current as HTMLElement).scrollWidth
-            ) {
-                (refCarousel.current as HTMLElement).scrollLeft = 0;
-            } else {
-                (refCarousel.current as HTMLElement)
-                    .scrollLeft = (refCarousel.current as HTMLElement).scrollLeft 
-                        + (refCarousel.current as HTMLElement).clientWidth;
-            }
-        }, 5000);
-    }, [])
+    // useEffect(() => {
+    //     setInterval(() => {
+    //         if ((refCarousel.current as HTMLElement).scrollLeft + (refCarousel.current as HTMLElement).clientWidth 
+    //             === (refCarousel.current as HTMLElement).scrollWidth
+    //         ) {
+    //             (refCarousel.current as HTMLElement).scrollLeft = 0;
+    //         } else {
+    //             (refCarousel.current as HTMLElement)
+    //                 .scrollLeft = (refCarousel.current as HTMLElement).scrollLeft 
+    //                     + (refCarousel.current as HTMLElement).clientWidth;
+    //         }
+    //     }, 5000);
+    // }, [])
     
     return (
         <div 

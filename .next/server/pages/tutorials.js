@@ -1,0 +1,90 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/tutorials";
+exports.ids = ["pages/tutorials"];
+exports.modules = {
+
+/***/ "./components/Common/ProfileCard.module.css":
+/*!**************************************************!*\
+  !*** ./components/Common/ProfileCard.module.css ***!
+  \**************************************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"profileFrame\": \"ProfileCard_profileFrame__AR8ze\",\n\t\"profileContainer\": \"ProfileCard_profileContainer__cW8Tz\",\n\t\"innerFrame\": \"ProfileCard_innerFrame__Hte5e\",\n\t\"profilePhoto\": \"ProfileCard_profilePhoto__5Cx4_\",\n\t\"infoText\": \"ProfileCard_infoText__ew0L6\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0NvbW1vbi9Qcm9maWxlQ2FyZC5tb2R1bGUuY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9sYS1tb3ZpZGEtdmVyZGUvLi9jb21wb25lbnRzL0NvbW1vbi9Qcm9maWxlQ2FyZC5tb2R1bGUuY3NzP2YzZmUiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwicHJvZmlsZUZyYW1lXCI6IFwiUHJvZmlsZUNhcmRfcHJvZmlsZUZyYW1lX19BUjh6ZVwiLFxuXHRcInByb2ZpbGVDb250YWluZXJcIjogXCJQcm9maWxlQ2FyZF9wcm9maWxlQ29udGFpbmVyX19jVzhUelwiLFxuXHRcImlubmVyRnJhbWVcIjogXCJQcm9maWxlQ2FyZF9pbm5lckZyYW1lX19IdGU1ZVwiLFxuXHRcInByb2ZpbGVQaG90b1wiOiBcIlByb2ZpbGVDYXJkX3Byb2ZpbGVQaG90b19fNUN4NF9cIixcblx0XCJpbmZvVGV4dFwiOiBcIlByb2ZpbGVDYXJkX2luZm9UZXh0X19ldzBMNlwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/Common/ProfileCard.module.css\n");
+
+/***/ }),
+
+/***/ "./components/Common/ProfileCard.tsx":
+/*!*******************************************!*\
+  !*** ./components/Common/ProfileCard.tsx ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _ProfileCard_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ProfileCard.module.css */ \"./components/Common/ProfileCard.module.css\");\n/* harmony import */ var _ProfileCard_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_ProfileCard_module_css__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nfunction ProfileCard(props) {\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_1__.useRouter)();\n    const { name , photo , route  } = props;\n    (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(()=>{\n        console.log(props);\n    }, []);\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_ProfileCard_module_css__WEBPACK_IMPORTED_MODULE_3___default().profileContainer),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_ProfileCard_module_css__WEBPACK_IMPORTED_MODULE_3___default().profileFrame),\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: (_ProfileCard_module_css__WEBPACK_IMPORTED_MODULE_3___default().innerFrame),\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                        src: photo,\n                        className: (_ProfileCard_module_css__WEBPACK_IMPORTED_MODULE_3___default().profilePhoto)\n                    }, void 0, false, {\n                        fileName: \"/home/luis/Desktop/LaMovidaVerde/components/Common/ProfileCard.tsx\",\n                        lineNumber: 23,\n                        columnNumber: 17\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/home/luis/Desktop/LaMovidaVerde/components/Common/ProfileCard.tsx\",\n                    lineNumber: 22,\n                    columnNumber: 17\n                }, this)\n            }, void 0, false, {\n                fileName: \"/home/luis/Desktop/LaMovidaVerde/components/Common/ProfileCard.tsx\",\n                lineNumber: 21,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                className: (_ProfileCard_module_css__WEBPACK_IMPORTED_MODULE_3___default().infoText),\n                children: name\n            }, void 0, false, {\n                fileName: \"/home/luis/Desktop/LaMovidaVerde/components/Common/ProfileCard.tsx\",\n                lineNumber: 26,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                onClick: ()=>{\n                    router.push(`/tutorials/${route}`);\n                },\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                    src: \"https://img.icons8.com/windows/96/000000/circled-chevron-right.png\"\n                }, void 0, false, {\n                    fileName: \"/home/luis/Desktop/LaMovidaVerde/components/Common/ProfileCard.tsx\",\n                    lineNumber: 33,\n                    columnNumber: 17\n                }, this)\n            }, void 0, false, {\n                fileName: \"/home/luis/Desktop/LaMovidaVerde/components/Common/ProfileCard.tsx\",\n                lineNumber: 27,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/luis/Desktop/LaMovidaVerde/components/Common/ProfileCard.tsx\",\n        lineNumber: 20,\n        columnNumber: 9\n    }, this));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProfileCard);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0NvbW1vbi9Qcm9maWxlQ2FyZC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7OztBQUF1QztBQUNRO0FBQ0g7U0FHbkNHLFdBQVcsQ0FBQ0MsS0FNcEIsRUFBaUIsQ0FBQztJQUNmLEtBQUssQ0FBQ0MsTUFBTSxHQUFHTCxzREFBUztJQUN4QixLQUFLLENBQUMsQ0FBQyxDQUFDTSxJQUFJLEdBQUVDLEtBQUssR0FBRUMsS0FBSyxFQUFDLENBQUMsR0FBR0osS0FBSztJQUNwQ0gsZ0RBQVMsS0FBTyxDQUFDO1FBQ2JRLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDTixLQUFLO0lBQ3JCLENBQUMsRUFBRSxDQUFDLENBQUM7SUFFTCxNQUFNLDZFQUNETyxDQUFHO1FBQUNDLFNBQVMsRUFBRVYsaUZBQXNCOzt3RkFDakNTLENBQUc7Z0JBQUNDLFNBQVMsRUFBRVYsNkVBQWtCO3NHQUM3QlMsQ0FBRztvQkFBQ0MsU0FBUyxFQUFFViwyRUFBZ0I7MEdBQy9CYyxDQUFHO3dCQUFDQyxHQUFHLEVBQUVWLEtBQUs7d0JBQUVLLFNBQVMsRUFBRVYsNkVBQWtCOzs7Ozs7Ozs7Ozs7Ozs7O3dGQUdqRGlCLENBQUM7Z0JBQUNQLFNBQVMsRUFBRVYseUVBQWM7MEJBQUdJLElBQUk7Ozs7Ozt3RkFDbENlLENBQU07Z0JBQ0hDLE9BQU8sTUFBYyxDQUFDO29CQUNsQmpCLE1BQU0sQ0FBQ2tCLElBQUksRUFBRSxXQUFXLEVBQUVmLEtBQUs7Z0JBQ25DLENBQUM7c0dBR0FRLENBQUc7b0JBQUNDLEdBQUcsRUFBQyxDQUFvRTs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFJN0YsQ0FBQztBQUNELGlFQUFlZCxXQUFXLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9sYS1tb3ZpZGEtdmVyZGUvLi9jb21wb25lbnRzL0NvbW1vbi9Qcm9maWxlQ2FyZC50c3g/NjdlYiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9yb3V0ZXJcIjtcbmltcG9ydCB7IFJlYWN0RWxlbWVudCwgdXNlRWZmZWN0IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgc3R5bGUgZnJvbSAnLi9Qcm9maWxlQ2FyZC5tb2R1bGUuY3NzJztcblxuXG5mdW5jdGlvbiBQcm9maWxlQ2FyZChwcm9wczoge1xuICAgIG5hbWU6IHN0cmluZztcbiAgICBwaG90bzogc3RyaW5nO1xuICAgIHJvdXRlOiBzdHJpbmc7IFxuICAgIC8vIHNpZGU6IGJvb2xlYW47XG4gICAgLy8gaWQ6IG51bWJlcjtcbn0gKTogUmVhY3RFbGVtZW50IHtcbiAgICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTtcbiAgICBjb25zdCB7IG5hbWUsIHBob3RvLCByb3V0ZSB9ID0gcHJvcHM7XG4gICAgdXNlRWZmZWN0KCgpID0+IHtcbiAgICAgICAgY29uc29sZS5sb2cocHJvcHMpO1xuICAgIH0sIFtdKVxuICAgIFxuICAgIHJldHVybiAoXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZS5wcm9maWxlQ29udGFpbmVyfSA+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGUucHJvZmlsZUZyYW1lfT5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGUuaW5uZXJGcmFtZX0+XG4gICAgICAgICAgICAgICAgPGltZyBzcmM9e3Bob3RvfSBjbGFzc05hbWU9e3N0eWxlLnByb2ZpbGVQaG90b30gLz5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPHAgY2xhc3NOYW1lPXtzdHlsZS5pbmZvVGV4dH0+e25hbWV9PC9wPlxuICAgICAgICAgICAgPGJ1dHRvbiBcbiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKTogdm9pZCA9PiB7XG4gICAgICAgICAgICAgICAgICAgIHJvdXRlci5wdXNoKGAvdHV0b3JpYWxzLyR7cm91dGV9YCk7XG4gICAgICAgICAgICAgICAgfX1cbiAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgPGltZyBzcmM9XCJodHRwczovL2ltZy5pY29uczguY29tL3dpbmRvd3MvOTYvMDAwMDAwL2NpcmNsZWQtY2hldnJvbi1yaWdodC5wbmdcIi8+XG4gICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgPC9kaXY+XG4gICAgKTtcbn1cbmV4cG9ydCBkZWZhdWx0IFByb2ZpbGVDYXJkOyJdLCJuYW1lcyI6WyJ1c2VSb3V0ZXIiLCJ1c2VFZmZlY3QiLCJzdHlsZSIsIlByb2ZpbGVDYXJkIiwicHJvcHMiLCJyb3V0ZXIiLCJuYW1lIiwicGhvdG8iLCJyb3V0ZSIsImNvbnNvbGUiLCJsb2ciLCJkaXYiLCJjbGFzc05hbWUiLCJwcm9maWxlQ29udGFpbmVyIiwicHJvZmlsZUZyYW1lIiwiaW5uZXJGcmFtZSIsImltZyIsInNyYyIsInByb2ZpbGVQaG90byIsInAiLCJpbmZvVGV4dCIsImJ1dHRvbiIsIm9uQ2xpY2siLCJwdXNoIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/Common/ProfileCard.tsx\n");
+
+/***/ }),
+
+/***/ "./pages/tutorials/index.tsx":
+/*!***********************************!*\
+  !*** ./pages/tutorials/index.tsx ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_Common_ProfileCard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Common/ProfileCard */ \"./components/Common/ProfileCard.tsx\");\n\n\n\nconst data = [\n    {\n        name: \"Luis Cruz\",\n        photo: '/luis-profile.png',\n        route: \"luis-tutorial\"\n    },\n    {\n        name: \"Omar Rosales\",\n        photo: '/omar-profile.png',\n        route: \"omar-tutorial\"\n    },\n    {\n        name: \"Allison Barrezueta\",\n        photo: '/allison-profile.png',\n        route: \"allison-tutorial\"\n    },\n    {\n        name: \"Alix Ferrin\",\n        photo: '/alix-profile.png',\n        route: \"alix-tutorial\"\n    }\n];\nfunction TutorialPage() {\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_1__.useRouter)();\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        style: {},\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            style: {\n                marginLeft: '10%',\n                marginRight: '10%'\n            },\n            children: data.map((profile)=>{\n                return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Common_ProfileCard__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                    name: profile.name,\n                    photo: profile.photo,\n                    route: profile.route\n                }, void 0, false, {\n                    fileName: \"/home/luis/Desktop/LaMovidaVerde/pages/tutorials/index.tsx\",\n                    lineNumber: 34,\n                    columnNumber: 15\n                }, this));\n            })\n        }, void 0, false, {\n            fileName: \"/home/luis/Desktop/LaMovidaVerde/pages/tutorials/index.tsx\",\n            lineNumber: 31,\n            columnNumber: 9\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/luis/Desktop/LaMovidaVerde/pages/tutorials/index.tsx\",\n        lineNumber: 30,\n        columnNumber: 5\n    }, this));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TutorialPage);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy90dXRvcmlhbHMvaW5kZXgudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBdUM7QUFDc0I7QUFFN0QsS0FBSyxDQUFDRSxJQUFJLEdBQUcsQ0FBQztJQUNaLENBQUM7UUFDQ0MsSUFBSSxFQUFFLENBQVc7UUFDakJDLEtBQUssRUFBRSxDQUFtQjtRQUMxQkMsS0FBSyxFQUFFLENBQWU7SUFDeEIsQ0FBQztJQUNELENBQUM7UUFDQ0YsSUFBSSxFQUFFLENBQWM7UUFDcEJDLEtBQUssRUFBRSxDQUFtQjtRQUMxQkMsS0FBSyxFQUFFLENBQWU7SUFDeEIsQ0FBQztJQUNELENBQUM7UUFDQ0YsSUFBSSxFQUFFLENBQW9CO1FBQzFCQyxLQUFLLEVBQUUsQ0FBc0I7UUFDN0JDLEtBQUssRUFBRSxDQUFrQjtJQUMzQixDQUFDO0lBQ0QsQ0FBQztRQUNDRixJQUFJLEVBQUUsQ0FBYTtRQUNuQkMsS0FBSyxFQUFFLENBQW1CO1FBQzFCQyxLQUFLLEVBQUUsQ0FBZTtJQUN4QixDQUFDO0FBQ0gsQ0FBQztTQUVRQyxZQUFZLEdBQUcsQ0FBQztJQUN2QixLQUFLLENBQUNDLE1BQU0sR0FBR1Asc0RBQVM7SUFDeEIsTUFBTSw2RUFDSFEsQ0FBRztRQUFDQyxLQUFLLEVBQUUsQ0FBQyxDQUFDOzhGQUNURCxDQUFHO1lBQUNDLEtBQUssRUFBRSxDQUFDO2dCQUFDQyxVQUFVLEVBQUUsQ0FBSztnQkFBRUMsV0FBVyxFQUFFLENBQUs7WUFBQyxDQUFDO3NCQUNsRFQsSUFBSSxDQUFDVSxHQUFHLEVBQUVDLE9BQU8sR0FBSyxDQUFDO2dCQUN0QixNQUFNLDZFQUNIWixzRUFBVztvQkFBQ0UsSUFBSSxFQUFFVSxPQUFPLENBQUNWLElBQUk7b0JBQUVDLEtBQUssRUFBRVMsT0FBTyxDQUFDVCxLQUFLO29CQUFFQyxLQUFLLEVBQUVRLE9BQU8sQ0FBQ1IsS0FBSzs7Ozs7O1lBRS9FLENBQUM7Ozs7Ozs7Ozs7O0FBT1gsQ0FBQztBQUVELGlFQUFlQyxZQUFZIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbGEtbW92aWRhLXZlcmRlLy4vcGFnZXMvdHV0b3JpYWxzL2luZGV4LnRzeD9lMzM2Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gXCJuZXh0L3JvdXRlclwiO1xuaW1wb3J0IFByb2ZpbGVDYXJkIGZyb20gXCIuLi8uLi9jb21wb25lbnRzL0NvbW1vbi9Qcm9maWxlQ2FyZFwiO1xuXG5jb25zdCBkYXRhID0gW1xuICB7XG4gICAgbmFtZTogXCJMdWlzIENydXpcIixcbiAgICBwaG90bzogJy9sdWlzLXByb2ZpbGUucG5nJyxcbiAgICByb3V0ZTogXCJsdWlzLXR1dG9yaWFsXCJcbiAgfSxcbiAge1xuICAgIG5hbWU6IFwiT21hciBSb3NhbGVzXCIsXG4gICAgcGhvdG86ICcvb21hci1wcm9maWxlLnBuZycsXG4gICAgcm91dGU6IFwib21hci10dXRvcmlhbFwiXG4gIH0sXG4gIHtcbiAgICBuYW1lOiBcIkFsbGlzb24gQmFycmV6dWV0YVwiLFxuICAgIHBob3RvOiAnL2FsbGlzb24tcHJvZmlsZS5wbmcnLFxuICAgIHJvdXRlOiBcImFsbGlzb24tdHV0b3JpYWxcIlxuICB9LFxuICB7XG4gICAgbmFtZTogXCJBbGl4IEZlcnJpblwiLFxuICAgIHBob3RvOiAnL2FsaXgtcHJvZmlsZS5wbmcnLFxuICAgIHJvdXRlOiBcImFsaXgtdHV0b3JpYWxcIlxuICB9XG5dO1xuXG5mdW5jdGlvbiBUdXRvcmlhbFBhZ2UoKSB7XG4gIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpXG4gIHJldHVybiAoXG4gICAgPGRpdiBzdHlsZT17e319PlxuICAgICAgICA8ZGl2IHN0eWxlPXt7IG1hcmdpbkxlZnQ6ICcxMCUnLCBtYXJnaW5SaWdodDogJzEwJScgfX0gPlxuICAgICAgICAgIHtkYXRhLm1hcCgocHJvZmlsZSkgPT4ge1xuICAgICAgICAgICAgcmV0dXJuIChcbiAgICAgICAgICAgICAgPFByb2ZpbGVDYXJkIG5hbWU9e3Byb2ZpbGUubmFtZX0gcGhvdG89e3Byb2ZpbGUucGhvdG99IHJvdXRlPXtwcm9maWxlLnJvdXRlfSAgLz5cbiAgICAgICAgICAgICk7ICAgICAgICBcbiAgICAgICAgICB9KX1cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIFxuICAgICAgICBcbiAgICAgICAgXG4gICAgPC9kaXY+XG4gICk7XG59XG5cbmV4cG9ydCBkZWZhdWx0IFR1dG9yaWFsUGFnZSJdLCJuYW1lcyI6WyJ1c2VSb3V0ZXIiLCJQcm9maWxlQ2FyZCIsImRhdGEiLCJuYW1lIiwicGhvdG8iLCJyb3V0ZSIsIlR1dG9yaWFsUGFnZSIsInJvdXRlciIsImRpdiIsInN0eWxlIiwibWFyZ2luTGVmdCIsIm1hcmdpblJpZ2h0IiwibWFwIiwicHJvZmlsZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/tutorials/index.tsx\n");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/router");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./pages/tutorials/index.tsx"));
+module.exports = __webpack_exports__;
+
+})();

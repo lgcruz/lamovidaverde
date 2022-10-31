@@ -1,0 +1,43 @@
+.profileFrame {
+    border-radius: 50%;
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+    border-style: solid;
+    border-width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    overflow: hidden;
+}
+
+.profileContainer {
+    border-radius: 138px;
+    background: black;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.innerFrame {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    overflow: visible;
+    max-width: 200px;
+    max-Height: 200px;  
+}
+
+.profilePhoto {
+    max-width: 220px;
+    max-Height: 220px;  
+}
+
+.infoText {
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+}
