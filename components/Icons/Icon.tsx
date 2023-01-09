@@ -1,5 +1,8 @@
-const Icon = (props) => (
-    <div className="flex flex-col items-center">
+import { IconParamInterface } from "../../interfaces/iconInterfaces";
+
+
+const Icon = (props: IconParamInterface): JSX.Element => (
+    <div title={props.title} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <svg
             xmlns="http://www.w3.org/2000/svg"
             height={props.height}
@@ -7,6 +10,8 @@ const Icon = (props) => (
             viewBox={props.viewBox}
             className={props.className}
             fill={props.fill}
+            id={props.id}
+            xmlSpace={props.xmlSpace}
             stroke={props.stroke}>
             {props.children}
         </svg>

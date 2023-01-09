@@ -36,3 +36,38 @@ a {
 ::-webkit-scrollbar-track {
     background: transparent;
 }
+
+.tippy-box[data-theme~=iconTheme] {
+    background-color:white;
+    color: #7E819F;
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.tippy-box[data-theme~=iconTheme][data-placement^=top]>.tippy-arrow:before{
+    border-top-color:white
+}
+
+.tippy-box[data-theme~=iconTheme][data-placement^=bottom]>.tippy-arrow:before{
+    border-bottom-color:white
+}
+
+.tippy-box[data-theme~=iconTheme][data-placement^=left]>.tippy-arrow:before{
+    border-left-color:white
+}
+
+.tippy-box[data-theme~=iconTheme][data-placement^=right]>.tippy-arrow:before{
+    border-right-color:white
+}
+
+.tippy-box[data-theme~=iconTheme]>.tippy-backdrop{
+    background-color:white
+}
+
+.tippy-box[data-theme~=iconTheme]>.tippy-svg-arrow{
+    fill:white
+}

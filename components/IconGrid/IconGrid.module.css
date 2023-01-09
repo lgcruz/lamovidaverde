@@ -1,0 +1,23 @@
+.gridContainerStyle   {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 1rem;
+    
+}
+
+.gridStyle {
+    background-color: #FDFEFE;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridStyleNight {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}

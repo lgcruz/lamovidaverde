@@ -1,8 +1,9 @@
-import React from 'react';
+import { ReactElement } from 'react';
+import { IconTemplateInterface } from '../../interfaces/iconInterfaces';
 
 import Icon from './Icon';
 
-const RightIcon = (props) => (
+const RightIcon = (props: IconTemplateInterface): ReactElement => (
   <Icon
     viewBox="0 0 24 24"
     className={props.className}

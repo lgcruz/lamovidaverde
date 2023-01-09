@@ -70,6 +70,11 @@ function Layout(props: LayoutProps): ReactElement {
                     }} >
                         {'Tutoriales'}
                     </button>
+                     <button className={`${style.buttonHeader} ${router.pathname === '/icons' && style.selected}`} onClick={(): void => {
+                        router.push('/icons');
+                    }} >
+                        {'Iconos'}
+                    </button>
                 </div>
             </div>
             {/* <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center' }} > */}
