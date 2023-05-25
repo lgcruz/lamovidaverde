@@ -11,6 +11,7 @@ export interface IconParamInterface {
     title?: string;
     id?: string;
     xmlSpace?: string;
+    strokeWidth?: string;
 }
 
 export interface IconTemplateInterface {
@@ -20,6 +21,7 @@ export interface IconTemplateInterface {
     fill?: string;
     fillOpacity?: string;
     stroke?: string;
+    strokeWidth?: string;
     style?: Record<string, string>;
     title?: string;
 }

@@ -12,6 +12,7 @@ const Icon = (props: IconParamInterface): JSX.Element => (
             fill={props.fill}
             id={props.id}
             xmlSpace={props.xmlSpace}
+            strokeWidth={props.strokeWidth}
             stroke={props.stroke}>
             {props.children}
         </svg>

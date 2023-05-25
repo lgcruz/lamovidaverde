@@ -63,14 +63,14 @@
     font-size: 20px;
     height: 100%;
     cursor: pointer;
-    color: #404953;
+    color: #264653;
 }
 
 .buttonHeader:hover {
     /* background: #f9d968; */
-    border-bottom-color: #676767;
+    border-bottom-color: #264653;
     border-bottom-style: solid;
-    color: #676767;
+    color: #264653;
     border-width: 4px;
 }
 
